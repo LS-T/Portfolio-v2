@@ -56,26 +56,45 @@ body {
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif; 
 }
-
-/* IDs */
-
-#about .btn {
-    border:2px solid transparent;
-    width: 40%;
-    padding: 14px 22px;
-    background: black;
-    border-radius: 7px;
-    margin-top: 10px;
+.nav-link{
+    color:white
 }
-#about .btn a {
-    color:white;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight: bold;
-    text-transform: uppercase;
+.poppin{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    border-radius:10%;
+    
+
+}
+.contact:hover .card-icon{
+    background: transparent;
+    color:rgb(9, 160, 160);
+}
+.card-icon{
+    font-size: 28px;
+    background:rgb(9, 160, 160);
+    width:50px;
+    height:50px;
+    justify-content: center;
+    line-height: 60px  !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
 }
 
-#about .btn:hover{
+
+.btn{
+    justify-content: center !important;
+}
+
+
+.btn:hover{
    border: 2px solid rgba(9, 160, 160);
    cursor: pointer;
+}
+#self {
+    border-radius: 15px;
 }
